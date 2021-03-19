@@ -14,4 +14,8 @@
     --f-display:'VaultAlarm', impact, sans-serif;
 }
 
+h1,h2,h3{
+    font-family: var(--f-display);
+}
+
 

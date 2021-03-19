@@ -1,0 +1,17 @@
+:root{
+    font-size: calc(1rem + 0.5vw);
+
+    --Teal: #007078;
+    --Orange: #FC6700;
+    --Accent-Red: #FF3630;
+    --Black: #262626;
+    --Gray: #D7DEDE;
+    --light-Teal: #00B5C2;
+    --light-Orange: #FDA700; 
+    --light-Red: #FF574D;
+
+    font-family: 'Bookmania-Regular', Constantia, Lucida, Georgia, serif;
+    --f-display:'VaultAlarm', impact, sans-serif;
+}
+
+

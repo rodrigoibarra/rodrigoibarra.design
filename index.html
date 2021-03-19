@@ -1,7 +1,28 @@
 ---
-layout: home 
+layout: home.html
 ---
 
+<section class="fontsSection">
+    <h2 class="title recipeTitle">The Fonts</h2>
+    
+            {%- for post in collections.fonts -%}
+            <div class="font">
+                <a href="{{post.url}}" class="smallTitle">
+                    <h3>
+                        {{ post.data.title }}
+                    </h3>
+                </a>
+                <ul class="fontData">
+                    <li>Used for: {{post.data.use}}</li>
+                    <li><a href="{{post.data.autlink}}">
+                        By:{{post.data.author}}
+                    </a>
+                        </li>
 
+                </ul>
+                
+                {{ post.data.ipsum}}
+            </div>
+        {% endfor %}
 
-
+</section>

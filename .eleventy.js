@@ -6,13 +6,7 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("fonts");
-     eleventyConfig.addPassthroughCopy("admin/config.yml");
-    eleventyConfig.setFrontMatterParsingOptions({
-        excerpt: true,
-        // Optional, default is "---"
-        excerpt_separator: "<!-- excerpt -->"
-      });
-  
+     eleventyConfig.addPassthroughCopy("admin/config.yml");  
     return{
         addPassthroughfileCopy: true,
         dir: {
